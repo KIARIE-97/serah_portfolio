@@ -11,7 +11,7 @@ const Hero: React.FC = () => {
 					<img
 						src="/images/me.JPG" // Replace with your image URL
 						alt="Profile"
-						className="relative w-full max-w-sm mx-auto"
+						className="relative w-full max-w-sm mx-auto border-8 rounded-full shadow-2xl"
 					/>
 				</div>
 
