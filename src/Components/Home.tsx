@@ -9,7 +9,7 @@ const Hero: React.FC = () => {
 				<div className="relative">
 					<div className="absolute -left-10 -top-10 bg-gradient-to-br from-purple-600 to-pink-400 w-72 h-96 rounded-full blur-3xl opacity-30"></div>
 					<img
-						src="/images/me.JPG" // Replace with your image URL
+						src="/images/off1.jpg" // Replace with your image URL
 						alt="Profile"
 						className="relative w-full max-w-sm mx-auto border-8 rounded-full shadow-2xl"
 					/>
@@ -34,9 +34,13 @@ const Hero: React.FC = () => {
 						problems and empower others in the industry.
 					</p>
 
-					<button className="mt-6 px-6 py-3 text-white font-bold bg-gradient-to-r from-purple-600 to-pink-400 rounded-lg shadow-lg hover:opacity-80 transition">
+					<a
+						href="/SERAH_KIARIE_RESUME.docx"
+						download="Serah_Kiarie_Resume.pdf"
+						className="mt-6 px-6 py-3 text-white font-bold bg-gradient-to-r from-purple-600 to-pink-400 rounded-lg shadow-lg hover:opacity-80 transition inline-block"
+					>
 						DOWNLOAD CV
-					</button>
+					</a>
 				</div>
 			</div>
 		</section>
