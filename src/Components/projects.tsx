@@ -17,10 +17,10 @@ const projects = [
 	},
 	{
 		title: "Portfolio Website",
-		image: "/projects/portfolio.png",
+		image: "/images/myp.png",
 		description:
 			"My personal portfolio website showcasing my projects, experience, and blog posts.",
-		github: "https://github.com/yourusername/portfolio",
+		github: "https://serah-portfolio-tau.vercel.app/projects",
 	},
 ];
 
